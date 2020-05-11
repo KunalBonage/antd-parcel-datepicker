@@ -1,0 +1,31 @@
+{
+  "name": "parcel-ant-design",
+  "version": "1.0.0",
+  "description": "Ant Design DatePicker issue with parcel bundler build",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "Ant",
+    "Design",
+    "Parcel",
+    "Bundler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.2.0",
+    "parcel": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-import": "^1.13.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
